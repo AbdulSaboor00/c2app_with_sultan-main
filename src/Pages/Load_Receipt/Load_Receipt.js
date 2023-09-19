@@ -24,7 +24,7 @@ const Load_Receipt = () => {
     setData(newarr)
   }
   return (
-    <div style={{ backgroundColor: "#191a1e", height: "100%", width: "100%",paddingBottom:20}}>
+    <div style={{ backgroundColor: "#191a1e", height: "100%", width: "100%",paddingBottom:21}}>
       <Headers />
       {/* Main Data */}
       <div style={{overflowY:"scroll",height:421,paddingBottom:10}}>
