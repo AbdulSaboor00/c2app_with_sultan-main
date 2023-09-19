@@ -1,0 +1,31 @@
+.recipent {
+    font-family: "SF Pro Text";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 26px;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.Load_id {
+    color: white;
+    font-size: 26px;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    line-height: 26px;
+    font-style: normal;
+    margin-left: 5px;
+}
+.icon-circle{
+    position: absolute;
+    top: -0px;
+    color: #ffffff;
+    left: 12px;
+    background-color: #FF8900;
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
