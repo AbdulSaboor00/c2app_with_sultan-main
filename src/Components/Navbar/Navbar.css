@@ -322,9 +322,9 @@ padding: 15px 0px;
  .contactimage{
   background-image: none;
  }
- a{
+ /* a{ */
   /* color: #1D1D22 !important; */
- }
+ /* } */
 }
 
 .react-multiple-carousel__arrow .react-multiple-carousel__arrow--left {
