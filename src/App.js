@@ -29,7 +29,8 @@ function App() {
           <Route path="/forgot_password" element={<ForgotPassword />} />
           <Route path="/resend_verification_email" element={<ResendVerificationEmail />} />
           <Route path="/load_receipt" element={<Load_Receipt />} />
-
+          <Route path="/home" element={<Home />} />
+          
           {/* LoginAdminMode */}
           <Route path="/login-admin-mode" element={<LoginAdminMode/>}></Route>
 

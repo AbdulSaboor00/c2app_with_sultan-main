@@ -404,3 +404,25 @@ padding: 15px 0px;
     border: none;
   }
 }
+.show>.btn-success.dropdown-toggle {
+  color: #fff;
+  background-color:#2125 !important;
+  border-color: #2125 !important;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #2125 !important;
+}
+.btn{
+  padding: 0 !important;
+  font-weight: 750 !important;
+  font-size: 17px;
+}
+.btn-success{
+  background-color:#2125 !important;
+  border-color: #2125 !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}

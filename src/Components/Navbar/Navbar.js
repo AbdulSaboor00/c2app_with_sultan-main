@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import { LinkContainer } from "react-router-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import { Image } from "react-bootstrap";
+import Dropdown from 'react-bootstrap/Dropdown';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useRef, useEffect } from 'react';
@@ -113,7 +114,16 @@ const BlackNavbar = () => {
                 <Nav.Link href="#action2" className="text-white" >Collection</Nav.Link>
               </LinkContainer>
               <Nav.Link href="#action2" className="text-white" > Shop</Nav.Link>
-              <Nav.Link href="#action2" className="text-white" > About us </Nav.Link>
+              {/* <Nav.Link href="#action2" className="text-white" > About us </Nav.Link> */}
+              <Dropdown>
+                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                  About us
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="/load_receipt">Load_Receipt</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
 
               <LinkContainer to="/login">
                 <Nav.Link className="text-white" onClick={handleLogout}> {authAction} </Nav.Link>
@@ -198,4 +208,5 @@ const SearchIcon = styled.i`
     margin-bottom: 15px;
   }
 `;
+
 export default BlackNavbar;
